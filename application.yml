@@ -16,11 +16,11 @@ lavalink:
       mixer: false
       http: true
       local: true
-    bufferDurationMs: 80
-    youtubePlaylistLoadLimit: 500
+    bufferDurationMs: 400
+    youtubePlaylistLoadLimit: 100
     youtubeSearchEnabled: true
     soundcloudSearchEnabled: true
-    gc-warnings: true
+    gc-warnings: false
 
 metrics:
   prometheus:
@@ -32,8 +32,8 @@ sentry:
 
 logging:
   file:
-    max-history: 1
-    max-size: 3MB
+    max-history: 2
+    max-size: 100MB
   path: /app/logs/
 
   level:
