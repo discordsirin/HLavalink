@@ -16,7 +16,7 @@ lavalink:
       mixer: false
       http: true
       local: true
-    bufferDurationMs: 400
+    bufferDurationMs: 80
     youtubePlaylistLoadLimit: 500
     youtubeSearchEnabled: true
     soundcloudSearchEnabled: true
