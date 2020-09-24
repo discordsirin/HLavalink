@@ -6,7 +6,7 @@ spring:
     banner-mode: log
 lavalink:
   server:
-    password: michaelnguyen
+    password: "helloiamhoang"
     sources:
       youtube: true
       bandcamp: false
